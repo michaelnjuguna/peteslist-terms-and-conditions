@@ -1,0 +1,24 @@
+@mixin inputStyles {
+    width: 80%;
+    min-height: 3rem;
+    text-align: center;
+    font-size: 2rem;
+    color: $dark;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    border-color: $dark;
+    border-width: 2px;
+}
+
+@mixin formButtonStyle{
+    width: fit-content;
+      color: $light;
+      padding: 1rem 2rem;
+      border-radius: 4px;
+      font-size: 2rem;
+      border: none;
+      transition-property: all;
+      transition-duration: .5s;
+      transition-timing-function: ease-out;
+}

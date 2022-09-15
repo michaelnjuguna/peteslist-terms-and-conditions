@@ -1,0 +1,9 @@
+<%- include('partials/header')%>
+<section class="auth">
+<form action="/auth" method="post" class="auth-form">
+    <input type="text" name="username" placeholder="Enter your username" required/>
+    <input type="password" name="password" placeholder="Enter your password" required/>
+    <button type="submit">Submit</button>
+</form>
+</section>
+<%- include('partials/footer')%>
