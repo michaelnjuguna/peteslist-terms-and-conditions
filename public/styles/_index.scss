@@ -1,0 +1,114 @@
+.navbar {
+  width: 100%;
+  min-height: 10vh;
+  background-color: $primary;
+  color: $light;
+  padding: 1rem 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+
+  .logo {
+    font-size: 4rem;
+    font-weight: 800;
+    //width: 0%;
+  }
+  .name {
+    font-size: 2rem;
+    font-weight: 400;
+    //width: 50%;
+  }
+}
+.header {
+  padding: 1rem 5%;
+  text-align: center;
+  width: 100vw;
+  font-size: 2rem;
+  font-size: 3rem;
+  text-decoration: underline;
+  color: $dark;
+}
+.terms-container {
+  width: 100vw;
+  padding: 1rem 5%;
+  ul {
+    li {
+      font-size: 2rem;
+      list-style: decimal;
+      margin-top: 1rem;
+    }
+  }
+}
+
+.admin-panel {
+  padding: 1rem 5%;
+  .add-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    input {
+      width: 80%;
+      min-height: 3rem;
+      text-align: center;
+      font-size: 2rem;
+      color: $dark;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-radius: 4px;
+      border-color: $dark;
+      border-width: 2px;
+    }
+    button {
+      width: fit-content;
+      color: $light;
+      background-color: $primary;
+      padding: 1rem 2rem;
+      border-radius: 4px;
+      font-size: 2rem;
+      border: none;
+    }
+    button:hover{
+        opacity: .8;
+    }
+  }
+  .remove-form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    input {
+      width: 80%;
+      min-height: 3rem;
+      text-align: center;
+      font-size: 2rem;
+      color: $dark;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-radius: 4px;
+      border-color: $dark;
+      border-width: 2px;
+    }
+    button {
+      width: fit-content;
+      color: $light;
+      background-color: $danger;
+      padding: 1rem 2rem;
+      border-radius: 4px;
+      font-size: 2rem;
+      border: none;
+    }
+    button:hover{
+        opacity: .8;
+    }
+  }
+}
+
+.footer{
+  font-size: 2rem;
+  width: 100vw;
+  background-color: $primary;
+  color: $light;
+  text-align: center;
+  padding: 1rem 0;
+  position: absolute;
+  bottom: 0;
+}

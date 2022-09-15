@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*::-moz-selection {
+  background-color: #f8f9fa;
+  color: #343a4d;
+}
+
+*::selection {
+  background-color: #f8f9fa;
+  color: #343a4d;
+}
+
+html, body {
+  font-size: 62.5%;
+  font-family: "Lato", sans-serif;
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #f8f9fa;
+  position: relative;
+}
+
+.navbar {
+  width: 100%;
+  min-height: 10vh;
+  background-color: #007bff;
+  color: #f8f9fa;
+  padding: 1rem 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+.navbar .logo {
+  font-size: 4rem;
+  font-weight: 800;
+}
+.navbar .name {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.header {
+  padding: 1rem 5%;
+  text-align: center;
+  width: 100vw;
+  font-size: 2rem;
+  font-size: 3rem;
+  text-decoration: underline;
+  color: #343a4d;
+}
+
+.terms-container {
+  width: 100vw;
+  padding: 1rem 5%;
+}
+.terms-container ul li {
+  font-size: 2rem;
+  list-style: decimal;
+  margin-top: 1rem;
+}
+
+.admin-panel {
+  padding: 1rem 5%;
+}
+.admin-panel .add-form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+.admin-panel .add-form input {
+  width: 80%;
+  min-height: 3rem;
+  text-align: center;
+  font-size: 2rem;
+  color: #343a4d;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+  border-color: #343a4d;
+  border-width: 2px;
+}
+.admin-panel .add-form button {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: #f8f9fa;
+  background-color: #007bff;
+  padding: 1rem 2rem;
+  border-radius: 4px;
+  font-size: 2rem;
+  border: none;
+}
+.admin-panel .add-form button:hover {
+  opacity: 0.8;
+}
+.admin-panel .remove-form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+.admin-panel .remove-form input {
+  width: 80%;
+  min-height: 3rem;
+  text-align: center;
+  font-size: 2rem;
+  color: #343a4d;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+  border-color: #343a4d;
+  border-width: 2px;
+}
+.admin-panel .remove-form button {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: #f8f9fa;
+  background-color: #dc3545;
+  padding: 1rem 2rem;
+  border-radius: 4px;
+  font-size: 2rem;
+  border: none;
+}
+.admin-panel .remove-form button:hover {
+  opacity: 0.8;
+}
+
+.footer {
+  font-size: 2rem;
+  width: 100vw;
+  background-color: #007bff;
+  color: #f8f9fa;
+  text-align: center;
+  padding: 1rem 0;
+  position: absolute;
+  bottom: 0;
+}/*# sourceMappingURL=main.css.map */

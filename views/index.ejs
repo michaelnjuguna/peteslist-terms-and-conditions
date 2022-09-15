@@ -1,0 +1,11 @@
+<%- include('partials/header')%>
+<h1 class="header">Terms and Conditions of use.</h1>
+<section class="terms-container">
+    <ul>
+        <% for(var i=0; i<termItems.length; i++){%>
+<li><%=termItems[i].title%></li>
+        <%}%>
+    </ul>
+</section>
+
+<%- include('partials/footer')%>

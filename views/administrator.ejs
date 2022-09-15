@@ -1,0 +1,24 @@
+<%- include('partials/header')%>
+<section class="admin-panel">
+  <!-- add data -->
+  <form action="/" method="post" class="add-form">
+    <input
+      type="text"
+      name="title"
+      placeholder="Type or paste the terms and conditions you want to add"
+      required
+    />
+    <button type="submit">Add</button>
+  </form>
+  <form action="/delete" method="post" class="remove-form">
+    <input
+      type="text"
+      name="title"
+      placeholder="Type or Paste the terms and conditions you want to delete"
+      required
+    />
+    <button type="submit">Remove</button>
+  </form>
+</section>
+
+<%- include('partials/footer')%>

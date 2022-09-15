@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    //outline: 2px solid limegreen !important;
+}
+*::selection{
+    background-color: $light;
+    color: $dark;
+}
+
+html,body{
+    font-size: 62.5%;
+    font-family: $mainFont;
+    width: 100vw;
+    min-height: 100vh;
+    background-color: $light;
+    position: relative;
+}
