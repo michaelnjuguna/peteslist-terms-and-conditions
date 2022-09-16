@@ -1,7 +1,9 @@
 <%- include('partials/header')%>
 <section class="admin-panel">
   <!-- add data -->
+
   <form action="/" method="post" class="add-form">
+    <h1>Add Terms and Conditions</h1>
     <input
       type="text"
       name="title"
@@ -11,6 +13,7 @@
     <button type="submit">Add</button>
   </form>
   <form action="/delete" method="post" class="remove-form">
+    <h1>Delete terms and Conditions</h1>
     <input
       type="text"
       name="title"
